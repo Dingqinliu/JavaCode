@@ -15,7 +15,7 @@ public class HeapOperation01 {
         while (child < size) {
             //如果左右孩子都有，线找到这俩孩子中最小的那个，用child标记
             if (child + 1 < size && array[child] > array[child + 1]) {
-                child = child + 1;
+                child = child +1;
             }
             if (array[parent] <= array[child]) {
                 break;
