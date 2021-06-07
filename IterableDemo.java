@@ -18,7 +18,7 @@ public class IterableDemo {
         //以上两句或直接写成：
         //Iterator<String>it=list.iterator();
         while (it.hasNext()){  //获取下一个元素，并让迭代器走到之后的位置上
-            String s=it.next();// 比如：第一次循环时，返回“我”，迭代器内部走到了“爱”
+            String s=it.next();// 比如：第一次循环时，返回“我”，迭代器内部走到了“爱”test test
             System.out.println(s);
         }
     }
